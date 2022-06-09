@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    min-width: 384px;
+    background-color:#151820;
+    align-items: center;
+    justify-content: center;
+    height: 1080px;
+}
+
+.botoesNavegacao{
+    display: flex;
+    flex-direction: column;
+    height: 540px;
+    justify-content: space-around;
+}

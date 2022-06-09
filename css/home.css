@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+
+}
+.conteudoHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 768px;
+    max-width: 768px;
+    height: 1080px;
+    background-color:#282D3C;
+}
+
+.textoConteudo{
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1{
+    font-size: 56px;
+    color: #F69197;
+}
+
+h2{
+    font-size: 48px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+
+    color: #FFC4B8;
+}
+
+h3{
+    font-size: 36px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+
+    color: #FFC4B8;
+}
+
+p{
+    font-size: 24px;
+
+    color: #FFC4B8;
+}
