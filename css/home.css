@@ -150,12 +150,35 @@ video{
         font-size: 24px;
     }
 }
+@media only screen and (max-width: 1300px)  { 
+    .gifFinal{
+        width: 620px;
+        height: 540,8px;
+    }
+}
 
+@media only screen and (max-width: 1100px)  { 
+    .gifFinal{
+        width: 372px;
+        height: 324,48px;
+    }
+
+    
+}
 
 @media only screen and (max-width: 1000px)  { 
     .container{
         display: flex;
         flex-direction: column;
+    }
+
+    .contatos{
+        margin-left: 0px;
+        flex-wrap: wrap;
+    }
+
+    .linkSite{
+        font-size: 32px;
     }
 }
 
@@ -164,11 +187,28 @@ video{
         width: 350px;
         height: 196px;
     }
+
+    .contatos{
+        align-items: center;
+    }
+
+    p{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 400px)  { 
     video{
         width: 280px;
         height: 156,8px;
+    }
+
+    .gifFinal{
+        width: 259px;
+        height: 227,13px;
+    }
+
+    .linkSite{
+        font-size: 24px;
     }
 }
