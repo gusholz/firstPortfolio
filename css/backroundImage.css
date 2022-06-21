@@ -1,6 +1,32 @@
 .backgroundImage{
-    min-width: 768px;
-    max-width: 768px;
-    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-color: #5b5d70;
+    min-width: 20%;
 }
+
+.gifHome{
+  width: 100%;
+  max-width: 512px;
+}
+
+.bgImage{
+  width: 100%;
+  max-width: 512px;
+}
+
+@media only screen and (max-width: 1000px)  { 
+  .bgImage{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .gifHome{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+

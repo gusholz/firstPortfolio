@@ -1,14 +1,30 @@
 .container{
     display: flex;
-
 }
-.conteudoHome{
+.conteudo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 768px;
-    max-width: 768px;
-    height: 1080px;
+    background-color:#282D3C;
+    height: fit-content;
+}
+
+.conteudoContatos{
+    display: flex;
+    flex-direction: column;
+    background-color:#282D3C;
+    align-items: center;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30%;
+    margin-left: 50%;
+}
+
+#containerContatos{
     background-color:#282D3C;
 }
 
@@ -18,13 +34,21 @@
     margin-right: 20%;
 }
 
+em {
+    font-style: italic;
+}
+
 h1{
     font-size: 56px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-style: italic;
     color: #F69197;
 }
 
 h2{
-    font-size: 48px;
+    font-size: 42px;
+    font-family: 'Chakra Petch', sans-serif;
+    
     margin-top: 4%;
     margin-bottom: 2%;
 
@@ -33,14 +57,118 @@ h2{
 
 h3{
     font-size: 36px;
+    font-family: 'Chakra Petch', sans-serif;
+
+
     margin-top: 4%;
     margin-bottom: 2%;
 
-    color: #FFC4B8;
+    color: #F69197;
 }
 
 p{
     font-size: 24px;
+    line-height: 1.4;
 
     color: #FFC4B8;
+}
+
+.seta{
+    margin-top: 55%;
+    margin-bottom: 25%;
+    opacity: 0.6;
+    width: 100px;
+    height: 100px;
+}
+
+.setaProximaAba :hover {
+    opacity: 1;
+}
+
+video{
+    max-width: 700px;
+    margin-top: 50px;
+}
+
+.divLink {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.linkSite{
+    text-decoration: none;
+    font-size: 48px;
+    color: #F69197;
+    opacity: 0.6;
+}
+
+.divLink :hover{
+    opacity: 1;
+}
+
+.gifFinal{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.despedida{
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 1526px){
+    h1{
+        font-size: 48px;
+    }
+    
+    h2{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 1406px){
+    h1{
+        font-size: 44px;
+    }
+    
+    h2{
+        font-size: 36px;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px)  { 
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px)  { 
+    video{
+        width: 350px;
+        height: 196px;
+    }
+}
+
+@media only screen and (max-width: 400px)  { 
+    video{
+        width: 280px;
+        height: 156,8px;
+    }
 }
