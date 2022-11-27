@@ -116,7 +116,7 @@ video{
 }
 
 .screenshot{
-    max-width: 1000px;
+    max-width: 45vw;
     height: fit-content;
 }
 
