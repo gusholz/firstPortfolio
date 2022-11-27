@@ -115,6 +115,11 @@ video{
     margin-bottom: 10%;
 }
 
+.screenshots{
+    max-width: 1000px;
+    height: fit-content;
+}
+
 @media only screen and (max-width: 1526px){
     h1{
         font-size: 48px;
